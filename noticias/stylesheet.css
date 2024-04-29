@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 2rem;
+    background-color: blue;
+    color: white;
+}
+
+header button {
+    border: none; /* Quita el borde de los botones */
+    background: none; /* Quita el fondo de los botones */
+    color: white; /* Cambia el color del texto a blanco */
+    font-size: 16px; /* Ajusta el tamaño de la fuente según sea necesario */
+    margin-right: 10px; /* Agrega un poco de espacio a la derecha de los botones */
+}
+
+.content {
+    margin: 0 5rem; /* Ajusta los márgenes laterales según sea necesario */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.Noticias {
+
+    max-width: 1000px; /* Ajusta el ancho máximo de la sección de noticias */
+    margin: 0 auto; /* Centrar la sección horizontalmente */
+    padding: 40px; /* Agrega un poco de espacio interno */
+}
+
+.Noticia {
+    padding: 30px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.Noticia h2 {
+    order: 1; /* Cambia el orden para que el título esté arriba */
+}
+
+.Noticia p {
+    order: 2; /* Cambia el orden para que la información esté abajo */
+    margin-left: 20px; /* Espacio entre el título y la información */
+}
+
+.Noticia img {
+    max-width: 200px; /* Ajusta el ancho máximo de la imagen según sea necesario */
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
+}
